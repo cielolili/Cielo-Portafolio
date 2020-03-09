@@ -582,7 +582,9 @@ pre code {
   }
   .text-white{
     font-size: 20px;
+    margin-top: 5px;
   }
+  
 }
 
 @media (min-width: 1200px) {
@@ -7498,6 +7500,8 @@ button.bg-dark:focus {
 .mt-2,
 .my-2 {
   margin-top: 0.5rem !important;
+  color: #fff;
+  text-align: center;
 }
 
 .mr-2,
@@ -7743,6 +7747,9 @@ button.bg-dark:focus {
 .mr-n1,
 .mx-n1 {
   margin-right: -0.25rem !important;
+}
+.text-white{
+  font-size: 15px;
 }
 
 .mb-n1,
@@ -9384,6 +9391,7 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+  margin-top: 8px;
 }
 
 .text-primary {
