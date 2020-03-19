@@ -45,7 +45,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  color: #ed969e;
+  color: #FF7592;
 }
 
 html {
@@ -487,7 +487,16 @@ mark,
   max-width: 100%;
   height: auto;
 }
-
+.imgIcon{
+  max-width: 40%;
+  height: auto;
+  display:block;
+  margin:auto;
+  margin-bottom: 10px;
+}
+.project-name{
+  text-align: center;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -576,6 +585,11 @@ pre code {
   .container {
     max-width: 960px;
   }
+  .imgIcon{
+    max-width: 40%;
+    height: auto;
+
+  }
   .img-fluid{
     max-width: 450%;
     height: auto;
@@ -583,6 +597,7 @@ pre code {
   .text-white{
     font-size: 20px;
     margin-top: 5px;
+    color: #fff;
   }
   
 }
@@ -7500,7 +7515,8 @@ button.bg-dark:focus {
 .mt-2,
 .my-2 {
   margin-top: 0.5rem !important;
-  color: #fff;
+  color: #212529;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -7574,6 +7590,7 @@ button.bg-dark:focus {
 .mt-5,
 .my-5 {
   margin-top: 3rem !important;
+  flex-wrap: wrap;
 }
 
 .mr-5,
@@ -9626,8 +9643,31 @@ hr.light {
   padding: 6rem 0;
 }
 .about-me{
-  background-color: #ed969e;
+  background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 6rem 0;
+}
+.portfolio{
+  padding: 6rem 0;
+
+}
+.contact{
+  background: #C9D6FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 6rem 0;
+}
+.img2{
+  height: 90px;
+    width: 140px;
+    margin: 0 auto;
+}
+.img3{
+  height: 90px;
+    width: 120px;
+    display: flex;
 }
 
 #mainNav {
