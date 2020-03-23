@@ -7896,7 +7896,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto {
-  margin-left: auto !important;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -9344,6 +9344,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 992px) {
+  .img-yo{
+    max-width: 180%;
+  }
   .text-lg-left {
     text-align: left !important;
   }
