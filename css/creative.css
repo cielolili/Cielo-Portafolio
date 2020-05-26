@@ -9673,6 +9673,9 @@ background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, F
     display: flex;
 }
 
+img{
+  box-shadow: 0 20px 10px -10px #25293450;
+}
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
